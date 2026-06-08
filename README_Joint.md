@@ -135,9 +135,6 @@ starting file indices) and `GROUP_SIZE = 10`:
      latents `zx ~ N(0, I)` and decode deltas.
    - **Plain CVAE**: draw `z ~ N(0, I)` and decode deltas conditioned on `s0` and controls.
 3. De-normalize deltas and integrate via `cumsum` from `s0` to obtain full trajectories.
-4. Compute the **endpoint error** (distance between predicted-mean and ground-truth-mean
-   final XY position) and **coverage** (fraction of timesteps where the truth lies within
-   ±1 predicted std on both XY axes).
 
 ### Physical parameters (`PARAMS_A`)
 
