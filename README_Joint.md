@@ -119,9 +119,6 @@ A single CVAE with no domain disentanglement:
 - `latent_dim = 32`, `hidden_dim = 324`, `epochs = 1000`, `batch_size = 32`.
 - Losses: summed-MSE reconstruction + annealed KL (`kl_max = 0.05`, `anneal_till = 300`)
   + first-step boundary loss (`boundary_weight = 10.0`).
-- Trains on the first `n_train = 40` real trajectories and saves to `cvae.pth`.
-
----
 
 ## Testing / inference
 
