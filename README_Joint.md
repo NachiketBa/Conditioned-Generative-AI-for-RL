@@ -1,6 +1,6 @@
 # Planetary-Lander Trajectory Generation — MI-AE + CVAE
 
-Generative modeling of Mars-lander descent trajectories from flattened state/control
+Generative modeling of Planetary-lander descent trajectories from flattened state/control
 CSVs. The repository contains two model families:
 
 1. **Joint MI-AE + CVAE** — a Mutual-Information AutoEncoder that disentangles the
